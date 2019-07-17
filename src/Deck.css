@@ -1,0 +1,20 @@
+body {
+  background: #17181c;
+}
+.Deck {
+  color: azure;
+  letter-spacing: 5px;
+}
+.Deck-cardarea {
+  margin-top: 50px;
+}
+
+.Deck-btn {
+  background: none;
+  border: 1px solid azure;
+  border-radius: 5px;
+  outline-color: none;
+  padding: 10px;
+  margin: 20px auto;
+  color: azure;
+}

@@ -1,0 +1,39 @@
+.Joke-points {
+  text-align: center;
+  justify-content: space-around;
+  width: 100px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.Joke td {
+  padding: 5px 10px;
+}
+
+.Joke {
+  border-bottom: 1px solid #556270;
+}
+
+.Joke td:last-child {
+  font-size: 40px;
+  color: #03389D;
+}
+
+.Joke button {
+  background: none;
+  border: none;
+  margin: auto;
+  font-size: 20px;
+  padding: 5px;
+  color: inherit;
+  border-radius: 5px;
+  transition: 0.1s ease-in;
+}
+
+.Joke button:hover {
+  -webkit-box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 50px 50px rgba(0,0,0,1);
+  cursor: pointer;
+  color: white;
+}
